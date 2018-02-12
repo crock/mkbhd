@@ -1,0 +1,6 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Secret environment variables
+.env
