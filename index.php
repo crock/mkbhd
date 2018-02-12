@@ -40,13 +40,13 @@ $playlists = read_playlist_cache();
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						<ul class="navbar-nav">
 								<li class="nav-item active">
-										<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+										<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item">
-										<a class="nav-link" href="#">Store</a>
+										<a class="nav-link disabled" href="#">Store</a>
 								</li>
 								<li class="nav-item">
-										<a class="nav-link" href="#">Discord</a>
+										<a class="nav-link" href="/discord">Discord</a>
 								</li>
 								<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Playlists</a>
