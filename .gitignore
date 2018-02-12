@@ -4,3 +4,6 @@ vendor/
 
 # Secret environment variables
 .env
+
+# Stupid and useless Mac-only file
+.DS_Store
