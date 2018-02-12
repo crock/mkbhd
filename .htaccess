@@ -8,4 +8,4 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
     Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
 
-RewriteRule ^discord\.php$ /discord?&%{QUERY_STRING}
+RewriteRule ^discord$ /discord\.php?&%{QUERY_STRING}
